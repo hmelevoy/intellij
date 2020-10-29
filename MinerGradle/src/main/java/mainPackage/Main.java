@@ -18,8 +18,8 @@ public class Main {
         frame.setSize(300,300);
         int sizeWidth = 1200;
         int sizeHeight = 800;
-        int locationX = (sizeWidth-300) / 2;
-        int locationY = (sizeHeight-300) / 2;
+        int locationX = (sizeWidth-600) / 2;
+        int locationY = (sizeHeight-600) / 2;
         frame.setBounds(locationX, locationY, 200, 200);
         JPanel contents = new JPanel();
         ActionListener actionListener = new TestActionListener();
