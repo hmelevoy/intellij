@@ -20,7 +20,7 @@ public class Main {
         int sizeHeight = 800;
         int locationX = (sizeWidth-300) / 2;
         int locationY = (sizeHeight-300) / 2;
-        frame.setBounds(locationX, locationY, 300, 300);
+        frame.setBounds(locationX, locationY, 400, 300);
         JPanel contents = new JPanel();
         ActionListener actionListener = new TestActionListener();
         JButton button1 = new JButton("Button 1");
